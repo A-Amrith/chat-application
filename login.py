@@ -9,6 +9,7 @@ ctk.set_default_color_theme("blue")
 
 root.geometry("400x400+700+400")
 root.resizable(False, False)
+root.title("Login Page")
 
 
 tabview = ctk.CTkTabview(master=root, width=400, height=400)
